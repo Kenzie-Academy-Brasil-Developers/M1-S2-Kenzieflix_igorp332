@@ -1,0 +1,93 @@
+body{
+    display: flex;
+   width: 100vw;
+   height: 100vh;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+   align-items: center;
+   background-color: black;
+   font-family: 'Inter', sans-serif;
+}
+
+.container{
+   display: flex;
+   flex-direction: column;
+   width: 500px;
+   background-color: black;
+   align-items: center;
+   justify-content: center;
+   height: 100%;
+   border-radius: 20px;
+}
+
+.assistir{
+    color: #fff;
+}
+
+.LogoKenzie{
+ display: flex;
+    justify-content: center;
+    width: 229px;
+    height: 68px;
+
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    
+    
+}
+    
+
+.p1{
+    text-align: center;
+    width: 40px;
+    height: 300px;
+    color: #fff;
+}
+.p2{
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+}
+.p3{
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+}
+.p4{
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    background-image: #fff;
+    page-break-inside: auto;
+    border-style: hidden;
+
+  
+}
+
+.button:hover{
+text-align: center;
+background-color #fff;
+height: 50px;
+page-break-after: auto;
+border-style: hidden;
+}
+input{
+    height: 20px;
+    padding-left: 10px;
+    border: 5px solid transparent;
+    
+}
+ input:focus{
+     border-color:#fff;
+ }      
+ 
+ input:hover{
+  border-color:#DEE2E6
